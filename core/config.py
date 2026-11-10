@@ -5,6 +5,8 @@ BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
 CACHE_DIR = DATA_DIR / "cache"
 DB_PATH = DATA_DIR / "pokemon.db"
+DETAILS_DIR = CACHE_DIR / "details"
+SPECIES_DIR = CACHE_DIR / "species"
 
 # --- API ---
 BASE_URL = "https://pokeapi.co/api/v2"

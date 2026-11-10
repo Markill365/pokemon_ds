@@ -3,7 +3,6 @@ from scraper.parsers import parse_pokemon, parse_species
 from db.storage import init_db, save_pokemon_batch
 from analyze.reports import some_works
 from core.config import BATCH_SIZE
-import pandas
 from time import perf_counter
 
 
