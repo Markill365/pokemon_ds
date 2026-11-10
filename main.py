@@ -29,8 +29,5 @@ def run():
 
 
 if __name__ == "__main__":
-    s = perf_counter()
     init_db()
     run()
-    e = perf_counter()
-    print(e-s)
