@@ -2,16 +2,11 @@ import json
 import os
 from pathlib import Path
 from requests import get
-from pprint import pprint
+from core.config import *
 
 
-BASE_URL = "https://pokeapi.co/api/v2"
-CACHE_DIR = Path(__file__).parent.parent / "data" / "cache"
-DETAILS_DIR = CACHE_DIR / "details"
-SPECIES_DIR = CACHE_DIR / "species"
 DETAILS_DIR.mkdir(parents=True, exist_ok=True)
 SPECIES_DIR.mkdir(parents=True, exist_ok=True)
-USE_CACHE = False
 
 
 def get_pokemon_list(limit=100000, offset=0):
