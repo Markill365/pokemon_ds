@@ -20,4 +20,4 @@ POKEMON_LIMIT = 100000
 
 # --- Флаги ---
 USE_CACHE = True
-DEBUG = True
+DEBUG = False
